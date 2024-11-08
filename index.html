@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculadora imc</title>
+  </head>
+  <body>
+    <header><h1>Índice de Massa Corporal</h1></header>
+
+    <!--<form action="#">-->
+        <div class="tabela1">
+            <h2 id="h2">Calcule seu IMC</h2>
+       <div class="tabela"> <nav>
+        
+            <ul>
+      <li><label for="altura">Altura</label></li>
+      <input type="number" name="altura" id="altura" />
+
+      <li><label for="peso">Peso (kg)</label></li>
+      <input type="number" name="peso" id="peso" />
+
+     <li> <button onclick="calcImc()">Calcular IMC</button></li>
+    </ul>
+    </nav>
+    </div>
+      <h3> índice de massa corporal é:</h3>
+     <span id="resultado"></span>
+</div>
+
+<div id="text">
+    
+<p>
+    <h2 id="h2">Como é feito o cálculo de IMC?</h2>
+
+    O cálculo do Índice de Massa Corporal (IMC) é feito dividindo o peso da pessoa (em quilogramas) pela altura (em metros) elevada ao quadrado. 
+    O IMC é utilizado para classificar o peso de uma pessoa em categorias, como 
+    Abaixo do peso: IMC menor que 18,5
+    Peso normal: IMC entre 18,5 e 24,9
+    Sobrepeso: IMC entre 25 e 29,9
+    Obesidade: IMC 30 ou maior
+    É uma medida simples e rápida, mas não leva em conta a composição corporal (por exemplo, a quantidade de músculo ou gordura).
+</div>
+</p>
+    <script>
+      function calcImc() {
+        const altura = parseFloat(document.getElementById("altura").value);
+        const peso = parseFloat(document.getElementById("peso").value);
+
+        const resultado = peso / altura ** 2;
+
+        document.getElementById("resultado").textContent = resultado.toFixed(2);
+      }
+
+    </script>
+    <footer>2024|@_.julia.kk</footer>
+  </body>
+</html>

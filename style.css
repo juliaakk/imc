@@ -1,0 +1,102 @@
+@font-face {
+    font-family: juia;
+    src: url(./Lofi\ Cottage.otf);
+
+    font-family: juju;
+    src: url(./GorgeousCultural.ttf);
+   
+  }
+
+body {
+  background-color: #c2edf0;
+  margin: 0;
+  background: url(https://cdn.pixabay.com/photo/2015/07/26/14/56/tape-861248_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+
+}
+
+header {
+  background: url(https://images.pexels.com/photos/7130503/pexels-photo-7130503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 0px;
+}
+h1 {
+   font-family: juju;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+}
+
+nav ul li {
+  align-items: center;
+  list-style: none;
+}
+
+#h2 {
+    font-family: juia;
+  display: flex;
+  justify-content: center;
+}
+.tabela {
+  display: flex;
+  justify-content: center;
+}
+.tabela1 {
+  background-color: #d3dbdbd2;
+  margin: 5% 20%;
+  border-radius: 25px;
+}
+
+input {
+  margin: 15px 0;
+  padding: 6px 34px;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
+button {
+  padding: 9px 34px;
+  margin: 0 40px;
+  border-radius: 12px;
+  background: url(https://images.pexels.com/photos/7130503/pexels-photo-7130503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  transition: 0.5s;
+  border: 2px black;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: #9c9c9c7e;
+  margin-top: 15%;
+  text-align: center;
+  transition: 0.5s;
+}
+#text {
+  background-color: #d3dbdba1;
+  border-radius: 13px;
+  margin: 0 19%;
+  padding: 2% 5%;
+}
+#resultado {
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  font-family: juia;
+}
+h3 {
+    font-family: juia;
+  background-color: #9aafb1;
+  display: flex;
+  justify-content: center;
+}
+
+footer:hover{
+    color: rgb(40, 94, 94);
+}
+button:hover{
+    color: #556591;
+    font-size: 15px;
+}
